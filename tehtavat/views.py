@@ -16,6 +16,7 @@ def etusivu(request):
     return response
 
 
+
 def tehtava_sivu(request, id):
     try:
         tehtava = Tehtava.objects.get(id=id)
