@@ -19,6 +19,7 @@ from django.urls import path
 from tehtavat.views import etusivu, tehtava_sivu, tietoa, yhteystiedot
 
 
+
 urlpatterns = [
     path('', etusivu, name="etusivu"),
     path('tehtava/<int:id>/', tehtava_sivu, name="tehtava"),
